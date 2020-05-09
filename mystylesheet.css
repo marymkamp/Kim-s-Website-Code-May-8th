@@ -1,0 +1,185 @@
+/* Section Styling Elements*/
+
+h2 {  
+
+      font-family: helvetica;
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 0px;
+      margin-bottom: 1px;
+}
+
+
+h3 {  
+
+      font-family: helvetica;
+      text-align: left;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 30px;
+      margin: auto;
+      margin-top: 0px;
+      margin-bottom: 1px;
+
+}
+
+.hr {
+
+     height: 2px;
+     background-color: #ccc;
+     border: none;
+
+}
+
+.img {
+
+	display:block;
+
+}
+
+
+/* Kim's Picture---- working to resize and scale*/
+
+.img.center {
+
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    margin: auto;
+}
+
+#display_image .img {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.bottom-left  {
+
+     position: absolute;
+     bottom:10px;
+     left:16px;
+
+}
+.image {
+
+      
+      min-height: 300px;
+      width: auto;
+     
+}
+
+.image img {
+
+      width: 100%;
+
+}
+
+/*Contact Form*/
+
+
+h4 {
+    margin-bottom: 40px
+}
+
+label {
+    color: #40E0D0
+}
+
+.ban-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px
+}
+
+.help-block.with-errors {
+    
+    color: #ff5050;
+    margin-top: 5px
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.container {
+
+    display: right;
+}
+
+/*  Footer */
+
+html, body {
+
+   height: 100%
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+
+   flex: 1 0 auto;
+
+}
+
+.footer {
+
+   flex-shrink: 0;
+
+}
+ 	
+/* Responsive Layouts */
+
+/* for mobile phones*/
+
+   [class*="col-"] {
+}
+
+/* On screens that are 992px wide or <, go from four column to two columns*/
+
+@media screen and (max-width: 992px) {
+
+       .column {
+        width: 50%;
+
+   }
+
+}
+  
+*/ For Desktops: */ 
+ @media only screen and (min-width: 768px)  {
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+media screen and (max-width: 600px or less) {
+
+      .column {
+        max-width: 100%;
+
+  }
+  
+}
+
